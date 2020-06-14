@@ -4,6 +4,6 @@ export const STAGE_HEIGHT = 20;
 export const createStage = () => {
   //create arrays of rows
   return Array.from(Array(STAGE_HEIGHT), () =>
-    new Array(STAGE_WIDTH).fill([0], "clear")
+    new Array(STAGE_WIDTH).fill([0, "clear"])
   );
 };
